@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrasi demplot padi hidroganik</title>
+  <desc id="desc">Ilustrasi area padi hidroganik dengan air dan belut sebagai gambar placeholder.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#bdebf4"/>
+      <stop offset="1" stop-color="#f3fbf7"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#44b9cd"/>
+      <stop offset="1" stop-color="#146a7d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#sky)"/>
+  <circle cx="1130" cy="155" r="72" fill="#ffd36a"/>
+  <path d="M0 330 C240 250 410 360 620 286 C850 204 1040 300 1400 214 L1400 900 L0 900 Z" fill="#d6f0da"/>
+  <path d="M0 460 C260 400 460 500 700 430 C930 365 1110 438 1400 382 L1400 900 L0 900 Z" fill="#7fbc6a"/>
+  <rect x="120" y="530" width="1160" height="230" rx="20" fill="#8b6a3f"/>
+  <rect x="155" y="565" width="1090" height="160" rx="12" fill="url(#water)"/>
+  <g stroke="#edf7dc" stroke-width="8" stroke-linecap="round">
+    <path d="M210 562 L195 495"/>
+    <path d="M210 562 L240 498"/>
+    <path d="M300 562 L285 488"/>
+    <path d="M300 562 L334 500"/>
+    <path d="M400 562 L380 496"/>
+    <path d="M400 562 L436 492"/>
+    <path d="M510 562 L496 488"/>
+    <path d="M510 562 L545 506"/>
+    <path d="M625 562 L610 492"/>
+    <path d="M625 562 L660 500"/>
+    <path d="M742 562 L725 492"/>
+    <path d="M742 562 L780 502"/>
+    <path d="M870 562 L850 490"/>
+    <path d="M870 562 L910 498"/>
+    <path d="M990 562 L972 492"/>
+    <path d="M990 562 L1028 504"/>
+    <path d="M1110 562 L1092 492"/>
+    <path d="M1110 562 L1150 502"/>
+  </g>
+  <g fill="#1d6b48">
+    <path d="M192 506 C150 500 136 464 134 430 C174 442 204 458 192 506 Z"/>
+    <path d="M240 502 C278 488 296 456 298 424 C260 433 230 462 240 502 Z"/>
+    <path d="M284 500 C244 488 234 448 238 414 C272 426 300 458 284 500 Z"/>
+    <path d="M334 504 C374 490 390 458 390 424 C350 436 322 466 334 504 Z"/>
+    <path d="M380 500 C342 488 328 450 332 416 C370 428 394 462 380 500 Z"/>
+    <path d="M436 498 C476 482 490 450 490 416 C450 430 426 462 436 498 Z"/>
+    <path d="M496 492 C458 480 446 446 450 414 C484 426 510 456 496 492 Z"/>
+    <path d="M545 506 C584 490 600 458 600 424 C560 434 536 468 545 506 Z"/>
+    <path d="M610 496 C574 484 560 448 565 418 C600 432 624 462 610 496 Z"/>
+    <path d="M660 500 C700 486 718 452 718 418 C678 428 650 464 660 500 Z"/>
+    <path d="M725 496 C688 484 674 448 680 416 C714 430 740 460 725 496 Z"/>
+    <path d="M780 502 C820 488 836 452 836 420 C796 430 768 466 780 502 Z"/>
+    <path d="M850 494 C812 484 796 450 802 416 C838 428 864 460 850 494 Z"/>
+    <path d="M910 498 C948 484 968 452 968 418 C928 428 900 462 910 498 Z"/>
+    <path d="M972 496 C934 482 920 448 924 416 C960 428 986 460 972 496 Z"/>
+    <path d="M1028 504 C1068 490 1086 456 1086 422 C1046 434 1018 468 1028 504 Z"/>
+    <path d="M1092 496 C1054 482 1040 448 1044 416 C1080 428 1106 460 1092 496 Z"/>
+    <path d="M1150 502 C1188 488 1206 454 1206 420 C1168 430 1140 466 1150 502 Z"/>
+  </g>
+  <path d="M350 675 C430 630 500 716 585 668 C632 641 685 632 742 660" fill="none" stroke="#3d2a1f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M806 680 C884 628 962 712 1046 660" fill="none" stroke="#3d2a1f" stroke-width="18" stroke-linecap="round"/>
+  <g fill="none" stroke="#e6f7fb" stroke-width="5" opacity="0.82">
+    <path d="M190 632 C270 610 350 610 430 632"/>
+    <path d="M520 630 C610 606 710 612 800 634"/>
+    <path d="M900 628 C990 604 1110 610 1202 636"/>
+  </g>
+</svg>

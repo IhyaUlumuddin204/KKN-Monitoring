@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder integrasi padi dan belut</title>
+  <desc id="desc">Ilustrasi integrasi padi dan belut sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#e6f7fb"/>
+  <rect y="300" width="900" height="260" fill="#146a7d"/>
+  <rect y="300" width="900" height="70" fill="#7fbc6a"/>
+  <g stroke="#143c2b" stroke-width="7" stroke-linecap="round">
+    <path d="M170 310 L150 210"/>
+    <path d="M170 310 L210 215"/>
+    <path d="M330 310 L310 200"/>
+    <path d="M330 310 L375 220"/>
+    <path d="M500 310 L475 204"/>
+    <path d="M500 310 L548 220"/>
+    <path d="M670 310 L648 205"/>
+    <path d="M670 310 L720 220"/>
+  </g>
+  <g fill="#1d6b48">
+    <path d="M150 215 C110 202 92 166 98 130 C136 142 164 178 150 215 Z"/>
+    <path d="M210 218 C250 202 270 166 268 128 C230 140 198 180 210 218 Z"/>
+    <path d="M310 204 C270 192 252 156 258 120 C296 132 324 166 310 204 Z"/>
+    <path d="M375 224 C414 208 434 170 430 132 C392 144 362 184 375 224 Z"/>
+    <path d="M475 208 C436 196 418 160 424 124 C462 136 490 170 475 208 Z"/>
+    <path d="M548 224 C588 208 608 172 604 134 C566 146 536 184 548 224 Z"/>
+    <path d="M648 208 C608 196 590 160 596 124 C634 136 662 170 648 208 Z"/>
+    <path d="M720 224 C760 208 780 172 776 134 C738 146 708 184 720 224 Z"/>
+  </g>
+  <path d="M170 430 C255 360 340 470 430 405 C495 358 555 390 610 428" fill="none" stroke="#3d2a1f" stroke-width="22" stroke-linecap="round"/>
+  <path d="M525 470 C610 400 700 502 790 432" fill="none" stroke="#3d2a1f" stroke-width="22" stroke-linecap="round"/>
+  <g fill="none" stroke="#e6f7fb" stroke-width="5" opacity="0.75">
+    <path d="M105 390 C180 370 260 372 330 392"/>
+    <path d="M410 448 C500 420 590 426 680 452"/>
+  </g>
+  <text x="450" y="520" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Integrasi Padi dan Belut</text>
+</svg>

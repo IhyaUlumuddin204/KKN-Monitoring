@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder persiapan air</title>
+  <desc id="desc">Ilustrasi persiapan genangan air sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#f5faf7"/>
+  <rect x="130" y="220" width="640" height="230" rx="18" fill="#146a7d"/>
+  <rect x="160" y="250" width="580" height="150" rx="14" fill="#53c4d2"/>
+  <g fill="none" stroke="#e6f7fb" stroke-width="8" opacity="0.8">
+    <path d="M185 305 C255 285 325 285 395 305"/>
+    <path d="M455 335 C525 315 595 315 665 335"/>
+    <path d="M245 375 C335 350 425 350 515 375"/>
+  </g>
+  <path d="M450 95 C392 168 365 210 365 260 C365 311 402 350 450 350 C498 350 535 311 535 260 C535 210 508 168 450 95 Z" fill="#31a6c1"/>
+  <text x="450" y="510" fill="#143c2b" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Persiapan Genangan Air</text>
+</svg>

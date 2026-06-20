@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder monitoring</title>
+  <desc id="desc">Ilustrasi grafik monitoring sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#f5faf7"/>
+  <rect x="110" y="105" width="680" height="360" rx="18" fill="#ffffff" stroke="#d9e7de" stroke-width="8"/>
+  <line x1="180" y1="390" x2="725" y2="390" stroke="#143c2b" stroke-width="6" stroke-linecap="round"/>
+  <line x1="180" y1="175" x2="180" y2="390" stroke="#143c2b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M205 355 L325 315 L445 270 L565 220 L700 175" fill="none" stroke="#2f9a5f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M205 365 L325 345 L445 320 L565 290 L700 255" fill="none" stroke="#31a6c1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#2f9a5f">
+    <circle cx="205" cy="355" r="13"/>
+    <circle cx="325" cy="315" r="13"/>
+    <circle cx="445" cy="270" r="13"/>
+    <circle cx="565" cy="220" r="13"/>
+    <circle cx="700" cy="175" r="13"/>
+  </g>
+  <g fill="#31a6c1">
+    <circle cx="205" cy="365" r="11"/>
+    <circle cx="325" cy="345" r="11"/>
+    <circle cx="445" cy="320" r="11"/>
+    <circle cx="565" cy="290" r="11"/>
+    <circle cx="700" cy="255" r="11"/>
+  </g>
+  <text x="450" y="525" fill="#143c2b" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Monitoring Mingguan</text>
+</svg>

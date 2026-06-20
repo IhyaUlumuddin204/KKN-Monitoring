@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder penanaman padi</title>
+  <desc id="desc">Ilustrasi penanaman padi sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#e6f7fb"/>
+  <rect y="315" width="900" height="245" fill="#146a7d"/>
+  <rect y="305" width="900" height="70" fill="#8b6a3f"/>
+  <g stroke="#143c2b" stroke-width="7" stroke-linecap="round">
+    <path d="M190 315 L170 210"/>
+    <path d="M190 315 L232 220"/>
+    <path d="M350 315 L330 205"/>
+    <path d="M350 315 L395 222"/>
+    <path d="M510 315 L488 205"/>
+    <path d="M510 315 L558 222"/>
+    <path d="M670 315 L650 205"/>
+    <path d="M670 315 L720 222"/>
+  </g>
+  <g fill="#1d6b48">
+    <path d="M170 215 C128 202 110 164 118 126 C158 138 184 176 170 215 Z"/>
+    <path d="M232 222 C274 204 294 166 290 128 C250 140 220 182 232 222 Z"/>
+    <path d="M330 208 C290 196 270 158 278 122 C318 134 344 170 330 208 Z"/>
+    <path d="M395 225 C436 208 456 170 452 132 C414 144 384 184 395 225 Z"/>
+    <path d="M488 208 C448 196 430 158 436 122 C476 134 502 170 488 208 Z"/>
+    <path d="M558 225 C600 208 620 170 616 132 C576 144 546 184 558 225 Z"/>
+    <path d="M650 208 C610 196 592 158 598 122 C638 134 664 170 650 208 Z"/>
+    <path d="M720 225 C762 208 782 170 778 132 C738 144 708 184 720 225 Z"/>
+  </g>
+  <text x="450" y="510" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Penanaman Padi</text>
+</svg>

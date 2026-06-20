@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder galeri media tanam</title>
+  <desc id="desc">Ilustrasi pembuatan media tanam sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#f5faf7"/>
+  <rect y="350" width="900" height="210" fill="#8b6a3f"/>
+  <rect x="140" y="260" width="620" height="150" rx="18" fill="#d9e7de" stroke="#143c2b" stroke-width="8"/>
+  <path d="M180 285 C285 225 350 310 450 260 C555 208 645 285 720 235 L720 360 L180 360 Z" fill="#2f9a5f"/>
+  <text x="450" y="510" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Media Tanam</text>
+</svg>

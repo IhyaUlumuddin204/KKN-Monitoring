@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder galeri monitoring</title>
+  <desc id="desc">Ilustrasi monitoring mingguan sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#f5faf7"/>
+  <rect x="145" y="120" width="610" height="330" rx="18" fill="#ffffff" stroke="#d9e7de" stroke-width="8"/>
+  <line x1="215" y1="370" x2="700" y2="370" stroke="#143c2b" stroke-width="6"/>
+  <line x1="215" y1="180" x2="215" y2="370" stroke="#143c2b" stroke-width="6"/>
+  <path d="M240 340 L350 300 L460 265 L570 220 L680 190" fill="none" stroke="#2f9a5f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M240 355 L350 335 L460 310 L570 288 L680 260" fill="none" stroke="#31a6c1" stroke-width="10" stroke-linecap="round"/>
+  <text x="450" y="510" fill="#143c2b" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Monitoring Mingguan</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder pembuatan pupuk</title>
+  <desc id="desc">Ilustrasi pembuatan pupuk organik dari rumput sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#f5faf7"/>
+  <rect y="350" width="900" height="210" fill="#2f9a5f"/>
+  <path d="M180 390 C275 315 370 405 460 335 C555 260 660 365 760 295 L760 430 L180 430 Z" fill="#143c2b"/>
+  <path d="M210 370 C300 325 370 390 460 350 C540 315 610 350 690 320" fill="none" stroke="#8b6a3f" stroke-width="20" stroke-linecap="round"/>
+  <text x="450" y="510" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Pembuatan Pupuk Organik</text>
+</svg>

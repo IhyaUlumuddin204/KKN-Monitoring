@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder padi hidroganik</title>
+  <desc id="desc">Ilustrasi padi hidroganik sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#e6f7fb"/>
+  <rect y="310" width="900" height="250" fill="#2f9a5f"/>
+  <rect x="120" y="330" width="660" height="130" rx="16" fill="#146a7d"/>
+  <rect x="145" y="350" width="610" height="88" rx="10" fill="#53c4d2"/>
+  <g stroke="#143c2b" stroke-width="7" stroke-linecap="round">
+    <path d="M230 352 L210 245"/>
+    <path d="M230 352 L270 252"/>
+    <path d="M360 352 L340 235"/>
+    <path d="M360 352 L405 255"/>
+    <path d="M500 352 L480 240"/>
+    <path d="M500 352 L550 252"/>
+    <path d="M640 352 L615 240"/>
+    <path d="M640 352 L688 256"/>
+  </g>
+  <g fill="#1d6b48">
+    <path d="M210 252 C162 238 142 190 152 148 C194 162 224 204 210 252 Z"/>
+    <path d="M270 255 C315 238 338 194 335 148 C290 162 258 210 270 255 Z"/>
+    <path d="M340 240 C294 226 272 184 280 142 C324 154 354 198 340 240 Z"/>
+    <path d="M405 258 C448 240 470 198 468 152 C424 164 392 212 405 258 Z"/>
+    <path d="M480 244 C436 230 412 188 420 144 C464 158 494 202 480 244 Z"/>
+    <path d="M550 255 C594 238 616 196 614 150 C570 162 538 210 550 255 Z"/>
+    <path d="M615 242 C570 228 548 186 556 142 C600 154 630 198 615 242 Z"/>
+    <path d="M688 258 C732 240 754 198 750 152 C708 164 676 212 688 258 Z"/>
+  </g>
+  <text x="450" y="510" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Padi Hidroganik</text>
+</svg>

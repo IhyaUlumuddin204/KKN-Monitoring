@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder galeri penanaman padi</title>
+  <desc id="desc">Ilustrasi penanaman bibit padi sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#f5faf7"/>
+  <rect y="315" width="900" height="245" fill="#146a7d"/>
+  <g stroke="#143c2b" stroke-width="8" stroke-linecap="round">
+    <path d="M230 315 L200 190"/>
+    <path d="M230 315 L280 205"/>
+    <path d="M450 315 L420 180"/>
+    <path d="M450 315 L510 205"/>
+    <path d="M670 315 L635 185"/>
+    <path d="M670 315 L730 205"/>
+  </g>
+  <g fill="#1d6b48">
+    <path d="M200 195 C155 180 136 140 144 100 C186 114 214 154 200 195 Z"/>
+    <path d="M280 208 C324 188 346 150 342 108 C300 122 268 164 280 208 Z"/>
+    <path d="M420 185 C376 172 356 132 364 92 C406 106 434 146 420 185 Z"/>
+    <path d="M510 208 C554 188 576 150 572 108 C530 122 498 164 510 208 Z"/>
+    <path d="M635 190 C592 176 572 136 580 96 C622 110 650 150 635 190 Z"/>
+    <path d="M730 208 C774 188 796 150 792 108 C750 122 718 164 730 208 Z"/>
+  </g>
+  <text x="450" y="510" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Penanaman Padi</text>
+</svg>

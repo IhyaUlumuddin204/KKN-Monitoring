@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder galeri survei lokasi</title>
+  <desc id="desc">Ilustrasi survei lokasi demplot sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#e6f7fb"/>
+  <rect y="330" width="900" height="230" fill="#7fbc6a"/>
+  <path d="M120 335 C220 255 330 320 430 250 C555 165 680 295 805 220 L805 335 Z" fill="#2f9a5f"/>
+  <rect x="180" y="355" width="540" height="105" rx="14" fill="#ffffff" opacity="0.95"/>
+  <text x="450" y="418" fill="#143c2b" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Survei Lokasi</text>
+</svg>

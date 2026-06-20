@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder perawatan demplot</title>
+  <desc id="desc">Ilustrasi perawatan demplot sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#f5faf7"/>
+  <rect y="360" width="900" height="200" fill="#2f9a5f"/>
+  <rect x="120" y="165" width="260" height="320" rx="18" fill="#ffffff" stroke="#d9e7de" stroke-width="6"/>
+  <rect x="155" y="215" width="190" height="18" rx="9" fill="#31a6c1"/>
+  <rect x="155" y="265" width="150" height="18" rx="9" fill="#2f9a5f"/>
+  <rect x="155" y="315" width="180" height="18" rx="9" fill="#31a6c1"/>
+  <rect x="155" y="365" width="130" height="18" rx="9" fill="#2f9a5f"/>
+  <path d="M550 360 L530 250" stroke="#143c2b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M550 360 L600 260" stroke="#143c2b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M530 254 C485 238 465 198 474 156 C516 170 544 210 530 254 Z" fill="#1d6b48"/>
+  <path d="M600 264 C644 246 666 206 662 164 C620 176 588 220 600 264 Z" fill="#1d6b48"/>
+  <circle cx="685" cy="245" r="74" fill="#e6f7fb" stroke="#31a6c1" stroke-width="10"/>
+  <path d="M735 300 L790 355" stroke="#31a6c1" stroke-width="18" stroke-linecap="round"/>
+  <text x="450" y="520" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Perawatan dan Pencatatan</text>
+</svg>

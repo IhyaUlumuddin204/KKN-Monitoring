@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder galeri penebaran belut</title>
+  <desc id="desc">Ilustrasi penebaran belut sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#e6f7fb"/>
+  <rect y="300" width="900" height="260" fill="#146a7d"/>
+  <path d="M160 410 C260 330 365 460 470 382 C545 328 615 374 690 428" fill="none" stroke="#3d2a1f" stroke-width="26" stroke-linecap="round"/>
+  <path d="M430 485 C535 405 650 520 760 430" fill="none" stroke="#3d2a1f" stroke-width="26" stroke-linecap="round"/>
+  <text x="450" y="235" fill="#143c2b" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Penebaran Belut</text>
+</svg>

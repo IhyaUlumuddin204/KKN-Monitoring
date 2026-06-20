@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder galeri pupuk rumput</title>
+  <desc id="desc">Ilustrasi pengolahan pupuk rumput sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#e6f7fb"/>
+  <rect y="340" width="900" height="220" fill="#2f9a5f"/>
+  <path d="M180 380 C270 300 350 400 450 325 C560 240 650 360 750 292 L750 430 L180 430 Z" fill="#143c2b"/>
+  <circle cx="650" cy="155" r="70" fill="#ffd36a"/>
+  <text x="450" y="510" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Pupuk Rumput</text>
+</svg>

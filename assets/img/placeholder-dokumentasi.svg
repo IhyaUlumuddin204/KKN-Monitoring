@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder dokumentasi kegiatan</title>
+  <desc id="desc">Ilustrasi dokumentasi kegiatan KKN sebagai gambar dummy.</desc>
+  <rect width="900" height="560" fill="#e6f7fb"/>
+  <rect x="115" y="120" width="670" height="360" rx="18" fill="#ffffff" stroke="#d9e7de" stroke-width="8"/>
+  <rect x="160" y="170" width="580" height="210" rx="12" fill="#2f9a5f"/>
+  <circle cx="245" cy="235" r="45" fill="#ffd36a"/>
+  <path d="M160 380 C245 300 310 350 382 290 C472 215 565 350 740 255 L740 380 Z" fill="#143c2b"/>
+  <rect x="200" y="410" width="190" height="18" rx="9" fill="#31a6c1"/>
+  <rect x="420" y="410" width="280" height="18" rx="9" fill="#d9e7de"/>
+  <text x="450" y="525" fill="#143c2b" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Dokumentasi Kegiatan</text>
+</svg>
