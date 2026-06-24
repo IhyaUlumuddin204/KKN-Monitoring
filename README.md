@@ -1,6 +1,6 @@
-# Template Website KKN Padi Hidroganik Terintegrasi Budidaya Belut
+# Template Website KKN Sawah Terapung Terintegrasi Budidaya Belut
 
-Template ini adalah website statis untuk media artikel, dokumentasi, edukasi, galeri, kontak, dan monitoring sederhana program KKN Teknik Informatika.
+Template ini adalah website statis untuk media artikel, dokumentasi, edukasi, galeri, kontak, dan monitoring sederhana program KKN Universitas Trunojoyo Madura.
 
 Website dibuat tanpa backend, tanpa database, dan tanpa login admin sehingga bisa di-hosting gratis di GitHub Pages, Netlify, atau Vercel.
 

@@ -56,14 +56,14 @@ const monitoringData = [
 // GANTI ISI POPUP ARTIKEL DI SINI
 // Data ini dipakai saat user klik "Baca ringkasan" di halaman artikel.
 const articleSummaries = {
-  hidroganik: {
-    title: "Apa itu Padi Hidroganik?",
+  sawah: {
+    title: "Apa itu Sawah Terapung?",
     date: "10 Juli 2026",
     image: "assets/img/placeholder-hidroganik.svg",
-    alt: "Ilustrasi padi hidroganik",
+    alt: "Ilustrasi sawah terapung",
     paragraphs: [
-      "Padi hidroganik adalah konsep budidaya padi yang menggabungkan media tanam organik, pengelolaan air, dan pencatatan perkembangan tanaman secara berkala.",
-      "Pada program KKN ini, sistem hidroganik dipakai sebagai demplot edukasi agar masyarakat dapat melihat proses pertumbuhan padi dengan pendekatan yang lebih hemat lahan dan mudah dimonitor."
+      "Sawah terapung adalah konsep budidaya padi yang menggunakan media tanam apung, pengelolaan air, dan pencatatan perkembangan tanaman secara berkala.",
+      "Pada program KKN ini, sistem sawah terapung dipakai sebagai demplot edukasi agar masyarakat dapat melihat proses pertumbuhan padi dengan pendekatan yang adaptif terhadap genangan air dan mudah dimonitor."
     ],
     points: [
       "Media tanam dapat diperkaya dengan bahan organik dari sekitar desa.",
@@ -78,7 +78,7 @@ const articleSummaries = {
     alt: "Ilustrasi pupuk organik dari rumput",
     paragraphs: [
       "Rumput yang tersedia di sekitar desa dapat dimanfaatkan sebagai bahan pupuk organik sederhana. Bahan ini membantu mengurangi limbah hijau sekaligus memperkenalkan praktik pertanian yang lebih ramah lingkungan.",
-      "Isi artikel asli nantinya bisa menjelaskan bahan, alat, waktu pengolahan, dan cara aplikasi pupuk pada demplot padi hidroganik."
+      "Isi artikel asli nantinya bisa menjelaskan bahan, alat, waktu pengolahan, dan cara aplikasi pupuk pada demplot sawah terapung."
     ],
     points: [
       "Bahan mudah ditemukan di lingkungan sekitar.",
@@ -87,12 +87,12 @@ const articleSummaries = {
     ]
   },
   integrasi: {
-    title: "Konsep Integrasi Padi dan Budidaya Belut",
+    title: "Konsep Integrasi Sawah Terapung dan Budidaya Belut",
     date: "15 Juli 2026",
     image: "assets/img/placeholder-integrasi.svg",
-    alt: "Ilustrasi integrasi padi dan budidaya belut",
+    alt: "Ilustrasi integrasi sawah terapung dan budidaya belut",
     paragraphs: [
-      "Integrasi padi dan belut memanfaatkan genangan air di bawah media tanam sebagai ruang hidup belut. Dengan begitu, satu area demplot dapat digunakan untuk pembelajaran tanaman dan perikanan sederhana.",
+      "Integrasi sawah terapung dan belut memanfaatkan genangan air di bawah media tanam sebagai ruang hidup belut. Dengan begitu, satu area demplot dapat digunakan untuk pembelajaran tanaman dan perikanan sederhana.",
       "Bagian ini bisa kamu kembangkan dengan kondisi asli di desa, seperti ukuran wadah, tinggi air, jumlah belut awal, dan kendala yang muncul selama program."
     ],
     points: [
@@ -102,10 +102,10 @@ const articleSummaries = {
     ]
   },
   perawatan: {
-    title: "Cara Perawatan Demplot Padi-Belut",
+    title: "Cara Perawatan Demplot Sawah Terapung-Belut",
     date: "18 Juli 2026",
     image: "assets/img/placeholder-perawatan.svg",
-    alt: "Ilustrasi perawatan demplot padi-belut",
+    alt: "Ilustrasi perawatan demplot sawah terapung-belut",
     paragraphs: [
       "Perawatan demplot dilakukan dengan mengecek tanaman, air, dan kondisi belut secara berkala. Data tersebut kemudian dimasukkan ke halaman monitoring agar perkembangan program lebih mudah dibaca.",
       "Artikel asli dapat berisi jadwal perawatan, siapa yang bertugas, serta langkah yang dilakukan saat air keruh, tanaman kurang subur, atau ada belut yang mati."

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
-  <title id="title">Placeholder integrasi padi dan belut</title>
-  <desc id="desc">Ilustrasi integrasi padi dan belut sebagai gambar dummy.</desc>
+  <title id="title">Placeholder integrasi sawah terapung dan belut</title>
+  <desc id="desc">Ilustrasi integrasi sawah terapung dan belut sebagai gambar dummy.</desc>
   <rect width="900" height="560" fill="#e6f7fb"/>
   <rect y="300" width="900" height="260" fill="#146a7d"/>
   <rect y="300" width="900" height="70" fill="#7fbc6a"/>
@@ -30,5 +30,5 @@
     <path d="M105 390 C180 370 260 372 330 392"/>
     <path d="M410 448 C500 420 590 426 680 452"/>
   </g>
-  <text x="450" y="520" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Integrasi Padi dan Belut</text>
+  <text x="450" y="520" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">Sawah Terapung dan Belut</text>
 </svg>
