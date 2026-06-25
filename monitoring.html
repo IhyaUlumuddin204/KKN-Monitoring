@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitoring Demplot | Waru Barat</title>
+  <meta name="description" content="Monitoring sederhana demplot sawah terapung terintegrasi budidaya belut.">
+  <link rel="stylesheet" href="assets/css/desa.css">
+</head>
+<body class="page-monitoring">
+  <a class="skip-link" href="#main-content">Lewati ke konten</a>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">WB</span>
+        <span>Waru Barat</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="main-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="main-menu">
+                  <li>
+            <a class="" href="index.html">
+              Beranda            </a>
+          </li>
+                  <li>
+            <a class="" href="profil.html">
+              Profil Desa            </a>
+          </li>
+                  <li>
+            <a class="" href="umkm.html">
+              UMKM            </a>
+          </li>
+                  <li>
+            <a class="" href="produk.html">
+              Produk            </a>
+          </li>
+                  <li>
+            <a class="" href="dokumentasi.html">
+              Dokumentasi            </a>
+          </li>
+                  <li>
+            <a class="" href="peta-potensi.html">
+              Peta Potensi            </a>
+          </li>
+                  <li>
+            <a class="active" href="monitoring.html">
+              Monitoring            </a>
+          </li>
+                  <li>
+            <a class="" href="kontak.html">
+              Kontak            </a>
+          </li>
+              </ul>
+    </nav>
+  </header>
+
+<main id="main-content">
+  <section class="page-header">
+    <div class="container page-header-inner">
+      <div>
+        <p class="eyebrow">Monitoring Demplot</p>
+        <h1>Perkembangan sawah terapung dan belut</h1>
+        <p>Data masih dummy dan dapat diganti di file <code>data/content.php</code>.</p>
+      </div>
+      <div class="page-actions">
+        <a class="btn btn-primary" href="#grafik">Lihat Grafik</a>
+        <a class="btn btn-secondary" href="#tabel">Lihat Tabel</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+          <div class="container monitor-summary">
+        <article class="reveal-on-scroll"><p>Tinggi Terakhir</p><strong>43 cm</strong><small>29 Juli 2026</small></article>
+        <article class="reveal-on-scroll"><p>Jumlah Daun</p><strong>11</strong><small>Minggu ke-5</small></article>
+        <article class="reveal-on-scroll"><p>Belut Hidup</p><strong>48 ekor</strong><small>Kondisi air: Stabil</small></article>
+        <article class="reveal-on-scroll"><p>Belut Mati</p><strong>2 ekor</strong><small>Akumulasi data dummy</small></article>
+      </div>
+    
+    <div class="container chart-card reveal-on-scroll" id="grafik">
+      <div class="section-head left">
+        <p class="eyebrow">Grafik</p>
+        <h2>Pertumbuhan tinggi padi dan jumlah daun</h2>
+        <p>Grafik ini dibuat dengan JavaScript vanilla dan HTML canvas, jadi tidak memakai library eksternal.</p>
+      </div>
+      <canvas id="growthChart" class="chart-canvas" width="900" height="360"></canvas>
+    </div>
+
+    <div class="container table-card reveal-on-scroll" id="tabel">
+      <div class="table-head">
+        <div>
+          <p class="eyebrow">Tabel Monitoring</p>
+          <h2>Catatan perkembangan mingguan</h2>
+        </div>
+        <span>5 data</span>
+      </div>
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Tanggal</th>
+              <th>Minggu</th>
+              <th>Tinggi</th>
+              <th>Daun</th>
+              <th>Kondisi Air</th>
+              <th>Belut Hidup</th>
+              <th>Belut Mati</th>
+              <th>Catatan</th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>01 Juli 2026</td>
+                <td>1</td>
+                <td>12 cm</td>
+                <td>3</td>
+                <td><span class="status-pill">Jernih</span></td>
+                <td>50</td>
+                <td>0</td>
+                <td>Adaptasi awal setelah penanaman.</td>
+              </tr>
+                          <tr>
+                <td>08 Juli 2026</td>
+                <td>2</td>
+                <td>18 cm</td>
+                <td>5</td>
+                <td><span class="status-pill">Agak keruh</span></td>
+                <td>49</td>
+                <td>1</td>
+                <td>Air mulai stabil dan saluran dicek.</td>
+              </tr>
+                          <tr>
+                <td>15 Juli 2026</td>
+                <td>3</td>
+                <td>26 cm</td>
+                <td>7</td>
+                <td><span class="status-pill">Jernih</span></td>
+                <td>49</td>
+                <td>0</td>
+                <td>Pertumbuhan padi terlihat merata.</td>
+              </tr>
+                          <tr>
+                <td>22 Juli 2026</td>
+                <td>4</td>
+                <td>34 cm</td>
+                <td>9</td>
+                <td><span class="status-pill">Jernih</span></td>
+                <td>48</td>
+                <td>1</td>
+                <td>Ditambahkan pupuk organik dosis ringan.</td>
+              </tr>
+                          <tr>
+                <td>29 Juli 2026</td>
+                <td>5</td>
+                <td>43 cm</td>
+                <td>11</td>
+                <td><span class="status-pill">Stabil</span></td>
+                <td>48</td>
+                <td>0</td>
+                <td>Tanaman lebih rimbun dan air dijaga.</td>
+              </tr>
+                      </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container cta-band reveal-on-scroll">
+      <div>
+        <p class="eyebrow">Cara Update</p>
+        <h2>Tambah data baru di array monitoring</h2>
+        <p>Buka <code>data/content.php</code>, cari komentar <code>GANTI DATA MONITORING DI SINI</code>, lalu tambah baris tanggal, minggu, tinggi padi, daun, kondisi air, dan catatan.</p>
+      </div>
+      <a class="btn btn-primary dark" href="kontak.html">Buka Form Monitoring</a>
+    </div>
+  </section>
+</main>
+
+<script>
+window.monitoringData = [{"tanggal":"2026-07-01","minggu":1,"tinggi":12,"daun":3,"air":"Jernih","hidup":50,"mati":0,"catatan":"Adaptasi awal setelah penanaman."},{"tanggal":"2026-07-08","minggu":2,"tinggi":18,"daun":5,"air":"Agak keruh","hidup":49,"mati":1,"catatan":"Air mulai stabil dan saluran dicek."},{"tanggal":"2026-07-15","minggu":3,"tinggi":26,"daun":7,"air":"Jernih","hidup":49,"mati":0,"catatan":"Pertumbuhan padi terlihat merata."},{"tanggal":"2026-07-22","minggu":4,"tinggi":34,"daun":9,"air":"Jernih","hidup":48,"mati":1,"catatan":"Ditambahkan pupuk organik dosis ringan."},{"tanggal":"2026-07-29","minggu":5,"tinggi":43,"daun":11,"air":"Stabil","hidup":48,"mati":0,"catatan":"Tanaman lebih rimbun dan air dijaga."}];
+</script>
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <div>
+        <strong>Website Profil dan Potensi Desa Waru Barat</strong>
+        <p>Pusat informasi profil desa, UMKM, produk unggulan, dokumentasi KKN, peta potensi pertanian, dan monitoring demplot sawah terapung.</p>
+      </div>
+      <div class="footer-meta">
+        <p>KKN Universitas Trunojoyo Madura 2026</p>
+                  <nav class="footer-links" aria-label="Navigasi footer">
+                          <a href="index.html">Beranda</a>
+                          <a href="profil.html">Profil Desa</a>
+                          <a href="umkm.html">UMKM</a>
+                          <a href="produk.html">Produk</a>
+                          <a href="dokumentasi.html">Dokumentasi</a>
+                          <a href="peta-potensi.html">Peta Potensi</a>
+                          <a href="monitoring.html">Monitoring</a>
+                          <a href="kontak.html">Kontak</a>
+                      </nav>
+              </div>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/desa.js"></script>
+</body>
+</html>

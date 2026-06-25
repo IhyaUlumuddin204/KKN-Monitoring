@@ -2,7 +2,7 @@
 
 Template ini dibuat dengan PHP native sederhana untuk kebutuhan KKN Universitas Trunojoyo Madura 2026. Website berisi profil desa, UMKM, produk unggulan, dokumentasi KKN, peta potensi pertanian, dan monitoring demplot sawah terapung.
 
-Website ini tidak memakai framework, database, atau login admin. Semua data dummy disimpan di array PHP agar mudah diganti.
+Website ini tidak memakai framework, database, atau login admin. Semua data dummy disimpan di array PHP agar mudah diganti. Untuk GitHub Pages, file PHP dapat diexport menjadi HTML statis menggunakan `build-static.php`.
 
 ## 1. Cara menjalankan di laptop
 
@@ -40,6 +40,15 @@ http://localhost:8000
 +-- peta-potensi.php
 +-- monitoring.php
 +-- kontak.php
++-- index.html
++-- profil.html
++-- umkm.html
++-- produk.html
++-- dokumentasi.html
++-- peta-potensi.html
++-- monitoring.html
++-- kontak.html
++-- build-static.php
 +-- data
 |   +-- content.php
 +-- includes
@@ -81,6 +90,14 @@ Foto dummy ada di folder:
 assets/img/
 ```
 
+Setelah mengganti data atau tampilan PHP, jalankan:
+
+```text
+php build-static.php
+```
+
+Perintah ini akan membuat ulang file `.html` untuk GitHub Pages.
+
 ## 4. Cara mengganti data monitoring
 
 Buka `data/content.php`, cari komentar:
@@ -95,17 +112,22 @@ Contoh data:
 ['tanggal' => '2026-07-01', 'minggu' => 1, 'tinggi' => 12, 'daun' => 3, 'air' => 'Jernih', 'hidup' => 50, 'mati' => 0, 'catatan' => 'Adaptasi awal setelah penanaman.'],
 ```
 
-Untuk menambah minggu baru, salin satu baris data, tempel di bawah data terakhir, lalu ubah nilainya. Tabel dan grafik di halaman `monitoring.php` akan mengikuti data tersebut.
+Untuk menambah minggu baru, salin satu baris data, tempel di bawah data terakhir, lalu ubah nilainya. Tabel dan grafik di halaman `monitoring.php` akan mengikuti data tersebut. Setelah itu jalankan `php build-static.php` agar `monitoring.html` ikut diperbarui.
 
-## 5. Catatan hosting
+## 5. Cara upload ke GitHub Pages
 
-GitHub Pages tidak bisa menjalankan PHP. Jika ingin website ini online, gunakan hosting yang mendukung PHP seperti cPanel, hosting kampus, InfinityFree, atau layanan hosting PHP lain.
+GitHub Pages tidak menjalankan PHP, tetapi bisa menampilkan file HTML statis hasil export.
 
-Alur upload ke hosting PHP:
+Alur update online:
 
-1. Zip semua file project.
-2. Upload ke folder `public_html` atau folder website utama di hosting.
-3. Pastikan file `index.php` berada di folder utama.
-4. Buka domain hosting untuk mengecek hasilnya.
+1. Edit data atau tampilan di file PHP.
+2. Jalankan `php build-static.php`.
+3. Commit semua perubahan.
+4. Push ke GitHub.
+5. Aktifkan GitHub Pages dari branch `main` folder `/root`.
 
-Repository GitHub tetap bisa dipakai untuk menyimpan kode, tetapi link `github.io` tidak akan menjalankan file PHP.
+Link GitHub Pages akan memakai `index.html`, bukan `index.php`.
+
+## 6. Catatan hosting PHP
+
+Jika ingin menjalankan versi PHP langsung, gunakan hosting yang mendukung PHP seperti cPanel, hosting kampus, InfinityFree, atau layanan hosting PHP lain. Untuk GitHub Pages, gunakan file `.html` hasil export.
