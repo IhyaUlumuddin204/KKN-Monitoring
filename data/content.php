@@ -1,36 +1,49 @@
 <?php
 
 return [
+    // GANTI DATA DESA DI SINI
     'site' => [
         'name' => 'Website Profil dan Potensi Desa Waru Barat',
-        'short_name' => 'Desa Waru Barat',
-        'tagline' => 'Profil desa, potensi lokal, dokumentasi KKN, dan monitoring demplot sawah terapung.',
+        'short_name' => 'Waru Barat',
+        'tagline' => 'Pusat informasi profil desa, UMKM, produk unggulan, dokumentasi KKN, peta potensi pertanian, dan monitoring demplot sawah terapung.',
         'program' => 'KKN Universitas Trunojoyo Madura 2026',
         'village' => 'Desa Waru Barat',
-        'district' => 'Kecamatan Placeholder',
-        'regency' => 'Kabupaten Placeholder',
-        'headman' => 'Bapak/Ibu Nama Kepala Desa',
-        'group' => 'Kelompok KKN Universitas Trunojoyo Madura XX',
+        'district' => 'Kecamatan Waru',
+        'regency' => 'Kabupaten Pamekasan',
+        'headman' => 'Nama Kepala Desa Waru Barat',
+        'group' => 'Kelompok KKN Universitas Trunojoyo Madura 2026',
         'whatsapp' => '08xx-xxxx-xxxx',
         'whatsapp_link' => 'https://wa.me/6280000000000',
         'instagram' => '@kkn.warubarat',
         'instagram_link' => 'https://instagram.com/',
         'form_link' => 'https://forms.gle/placeholder',
-        'website_link' => 'https://ihyaulumuddin204.github.io/KKN-Monitoring/',
+        'website_link' => 'https://domain-website-desa.example',
     ],
+
+    'profile' => [
+        'summary' => 'Desa Waru Barat memiliki potensi lokal di bidang pertanian, ekonomi warga, UMKM, serta inovasi demplot KKN. Teks ini dapat diganti dengan sejarah singkat, jumlah dusun, batas wilayah, jumlah penduduk, dan karakter utama desa.',
+        'focus' => [
+            'Promosi potensi desa melalui website yang ringan dan mudah diakses warga.',
+            'Pendataan UMKM serta produk unggulan agar lebih mudah dikenalkan ke publik.',
+            'Dokumentasi KKN dan monitoring demplot sawah terapung sebagai arsip kegiatan.',
+        ],
+    ],
+
     'stats' => [
         ['label' => 'UMKM Desa', 'value' => '06+', 'note' => 'data awal'],
         ['label' => 'Produk Unggulan', 'value' => '04', 'note' => 'contoh produk'],
         ['label' => 'Titik Potensi', 'value' => '05', 'note' => 'pertanian & ekonomi'],
-        ['label' => 'Demplot', 'value' => '01', 'note' => 'sawah terapung'],
+        ['label' => 'Demplot KKN', 'value' => '01', 'note' => 'sawah terapung'],
     ],
+
+    // GANTI DATA UMKM DI SINI
     'umkm' => [
         [
             'name' => 'Keripik Singkong Waru Barat',
             'category' => 'Makanan Ringan',
             'owner' => 'Nama Pemilik UMKM',
             'location' => 'Dusun Placeholder',
-            'description' => 'Contoh data UMKM desa yang dapat diganti dengan nama usaha, pemilik, alamat, dan kontak asli.',
+            'description' => 'Contoh data UMKM desa yang dapat diganti dengan nama usaha, pemilik, alamat, kontak, dan foto asli.',
             'image' => 'assets/img/gallery-3.svg',
         ],
         [
@@ -49,13 +62,23 @@ return [
             'description' => 'Placeholder untuk usaha kerajinan atau produk kreatif yang ada di Desa Waru Barat.',
             'image' => 'assets/img/gallery-2.svg',
         ],
+        [
+            'name' => 'Warung Kopi dan Jajanan Lokal',
+            'category' => 'Kuliner',
+            'owner' => 'Nama Pemilik UMKM',
+            'location' => 'Dusun Placeholder',
+            'description' => 'Contoh usaha kuliner warga yang bisa ditampilkan lengkap dengan kontak pemesanan.',
+            'image' => 'assets/img/gallery-1.svg',
+        ],
     ],
+
+    // GANTI PRODUK UNGGULAN DI SINI
     'products' => [
         [
             'name' => 'Padi Sawah Terapung',
             'type' => 'Pertanian',
             'description' => 'Demplot padi dengan media apung sebagai contoh pemanfaatan area genangan air.',
-            'image' => 'assets/img/placeholder-hidroganik.svg',
+            'image' => 'assets/img/placeholder-sawah-terapung.svg',
         ],
         [
             'name' => 'Belut Demplot',
@@ -76,6 +99,8 @@ return [
             'image' => 'assets/img/placeholder-dokumentasi.svg',
         ],
     ],
+
+    // GANTI DOKUMENTASI KKN DI SINI
     'documentation' => [
         [
             'date' => '01 Juli 2026',
@@ -96,6 +121,12 @@ return [
             'image' => 'assets/img/doc-penanaman.svg',
         ],
         [
+            'date' => '08 Juli 2026',
+            'title' => 'Pembuatan Pupuk Organik',
+            'description' => 'Pengolahan rumput dan bahan organik lokal sebagai pupuk sederhana untuk demplot.',
+            'image' => 'assets/img/doc-pupuk.svg',
+        ],
+        [
             'date' => '10 Juli 2026',
             'title' => 'Penebaran Belut',
             'description' => 'Belut ditebar pada area genangan setelah kondisi air dinilai stabil.',
@@ -108,6 +139,18 @@ return [
             'image' => 'assets/img/doc-monitoring.svg',
         ],
     ],
+
+    // GANTI GALERI FOTO DI SINI
+    'gallery' => [
+        ['caption' => 'Survei lokasi dan observasi potensi desa', 'image' => 'assets/img/gallery-1.svg'],
+        ['caption' => 'Persiapan media dan kebutuhan demplot', 'image' => 'assets/img/gallery-2.svg'],
+        ['caption' => 'Pendataan produk dan UMKM lokal', 'image' => 'assets/img/gallery-3.svg'],
+        ['caption' => 'Penanaman padi pada area sawah terapung', 'image' => 'assets/img/gallery-4.svg'],
+        ['caption' => 'Penebaran belut pada genangan demplot', 'image' => 'assets/img/gallery-5.svg'],
+        ['caption' => 'Monitoring mingguan bersama tim KKN', 'image' => 'assets/img/gallery-6.svg'],
+    ],
+
+    // GANTI PETA POTENSI DI SINI
     'potentials' => [
         [
             'name' => 'Area Pertanian',
@@ -130,6 +173,8 @@ return [
             'description' => 'Potensi air desa yang mendukung pertanian, demplot, dan kegiatan produktif warga.',
         ],
     ],
+
+    // GANTI DATA MONITORING DI SINI
     'monitoring' => [
         ['tanggal' => '2026-07-01', 'minggu' => 1, 'tinggi' => 12, 'daun' => 3, 'air' => 'Jernih', 'hidup' => 50, 'mati' => 0, 'catatan' => 'Adaptasi awal setelah penanaman.'],
         ['tanggal' => '2026-07-08', 'minggu' => 2, 'tinggi' => 18, 'daun' => 5, 'air' => 'Agak keruh', 'hidup' => 49, 'mati' => 1, 'catatan' => 'Air mulai stabil dan saluran dicek.'],

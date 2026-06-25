@@ -27,7 +27,8 @@ $navItems = [
   <meta name="description" content="<?= e($pageDescription); ?>">
   <link rel="stylesheet" href="assets/css/desa.css">
 </head>
-<body>
+<body class="page-<?= e($currentPage); ?>">
+  <a class="skip-link" href="#main-content">Lewati ke konten</a>
   <header class="site-header">
     <nav class="navbar container" aria-label="Navigasi utama">
       <a class="brand" href="index.php">

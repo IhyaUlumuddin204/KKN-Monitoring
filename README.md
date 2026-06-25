@@ -1,33 +1,56 @@
-# Template Website KKN Sawah Terapung Terintegrasi Budidaya Belut
+# Website Profil dan Potensi Desa Waru Barat
 
-Template ini adalah website statis untuk media artikel, dokumentasi, edukasi, galeri, kontak, dan monitoring sederhana program KKN Universitas Trunojoyo Madura.
+Template ini dibuat dengan PHP native sederhana untuk kebutuhan KKN Universitas Trunojoyo Madura 2026. Website berisi profil desa, UMKM, produk unggulan, dokumentasi KKN, peta potensi pertanian, dan monitoring demplot sawah terapung.
 
-Website dibuat tanpa backend, tanpa database, dan tanpa login admin sehingga bisa di-hosting gratis di GitHub Pages, Netlify, atau Vercel.
+Website ini tidak memakai framework, database, atau login admin. Semua data dummy disimpan di array PHP agar mudah diganti.
 
-## 1. Cara menjalankan website di laptop
+## 1. Cara menjalankan di laptop
 
-1. Buka folder project ini.
-2. Klik dua kali file `index.html`.
-3. Website akan terbuka di browser.
-4. Gunakan menu navbar untuk berpindah ke halaman `artikel.html`, `dokumentasi.html`, `monitoring.html`, `galeri.html`, dan `kontak.html`.
+Jika memakai XAMPP:
 
-Website ini tidak membutuhkan XAMPP, PHP, Laravel, Node.js, atau database.
+1. Letakkan folder project di `C:\xampp\htdocs\Monitoring desa`.
+2. Jalankan Apache dari XAMPP Control Panel.
+3. Buka browser:
+
+```text
+http://localhost/Monitoring%20desa/index.php
+```
+
+Jika memakai server PHP bawaan:
+
+```text
+php -S localhost:8000
+```
+
+Lalu buka:
+
+```text
+http://localhost:8000
+```
 
 ## 2. Struktur folder
 
 ```text
 .
-+-- index.html
-+-- artikel.html
-+-- dokumentasi.html
-+-- monitoring.html
-+-- galeri.html
-+-- kontak.html
++-- index.php
++-- profil.php
++-- umkm.php
++-- produk.php
++-- dokumentasi.php
++-- peta-potensi.php
++-- monitoring.php
++-- kontak.php
++-- data
+|   +-- content.php
++-- includes
+|   +-- header.php
+|   +-- footer.php
+|   +-- helpers.php
 +-- assets
 |   +-- css
-|   |   +-- style.css
+|   |   +-- desa.css
 |   +-- js
-|   |   +-- script.js
+|   |   +-- desa.js
 |   +-- img
 |       +-- gambar placeholder
 +-- README.md
@@ -35,67 +58,54 @@ Website ini tidak membutuhkan XAMPP, PHP, Laravel, Node.js, atau database.
 
 ## 3. Bagian yang perlu diganti
 
-- Nama program, tahun KKN, dan teks utama di setiap file `.html`.
-- Nama desa pada `kontak.html`, cari komentar `<!-- GANTI NAMA DESA DI SINI -->`.
-- Nama kelompok KKN pada `kontak.html`.
-- Nomor WhatsApp, link Google Form, dan link Instagram pada `kontak.html`.
-- Foto kegiatan pada folder `assets/img/`.
-- Caption galeri pada `galeri.html`.
-- Tanggal dan deskripsi timeline pada `dokumentasi.html`.
-- Judul, tanggal, gambar, dan ringkasan artikel pada `artikel.html`.
-- Data monitoring pada `assets/js/script.js`.
-
-## 4. Cara upload ke GitHub Pages
-
-1. Buat repository baru di GitHub.
-2. Upload semua file dan folder template ini ke repository tersebut.
-3. Masuk ke menu `Settings`.
-4. Pilih `Pages`.
-5. Pada bagian `Build and deployment`, pilih sumber `Deploy from a branch`.
-6. Pilih branch `main` dan folder `/root`.
-7. Klik `Save`.
-8. Tunggu beberapa menit sampai link GitHub Pages aktif.
-
-Setelah aktif, GitHub akan memberikan link website. Link tersebut bisa dibuat menjadi QR Code dan ditempel pada halaman `kontak.html`.
-
-## 5. Cara mengganti data monitoring
-
-Buka file:
+Sebagian besar data ada di:
 
 ```text
-assets/js/script.js
+data/content.php
 ```
 
-Cari bagian:
+Ganti bagian berikut:
 
-```js
-const monitoringData = [
-  {
-    tanggal: "2026-07-01",
-    minggu: 1,
-    tinggi: 12,
-    daun: 3,
-    kondisiAir: "Jernih",
-    belutHidup: 50,
-    belutMati: 0,
-    catatan: "Adaptasi awal setelah penanaman dan pengisian air."
-  }
-];
+- Data desa: nama desa, kecamatan, kabupaten, nama kepala desa, nama kelompok KKN.
+- Kontak: WhatsApp, link Instagram, link Google Form, dan link website final.
+- Data UMKM: nama usaha, kategori, pemilik, lokasi, deskripsi, foto.
+- Produk unggulan: nama produk, jenis produk, deskripsi, foto.
+- Dokumentasi KKN: tanggal, judul kegiatan, deskripsi, foto.
+- Galeri: caption dan foto kegiatan.
+- Peta potensi: nama titik potensi, kategori, dan deskripsi.
+- Monitoring: tanggal, minggu, tinggi padi, jumlah daun, kondisi air, jumlah belut, dan catatan.
+
+Foto dummy ada di folder:
+
+```text
+assets/img/
 ```
 
-Ubah nilai sesuai hasil pengamatan. Contoh:
+## 4. Cara mengganti data monitoring
 
-```js
-{
-  tanggal: "2026-08-05",
-  minggu: 6,
-  tinggi: 50,
-  daun: 13,
-  kondisiAir: "Stabil",
-  belutHidup: 47,
-  belutMati: 1,
-  catatan: "Tanaman tumbuh baik dan air dikontrol setiap pagi."
-}
+Buka `data/content.php`, cari komentar:
+
+```php
+// GANTI DATA MONITORING DI SINI
 ```
 
-Jika ingin menambah minggu baru, salin satu objek data, tempel di bawah data terakhir, lalu ubah nilainya. Tabel dan grafik di halaman `monitoring.html` akan mengikuti isi array tersebut secara otomatis.
+Contoh data:
+
+```php
+['tanggal' => '2026-07-01', 'minggu' => 1, 'tinggi' => 12, 'daun' => 3, 'air' => 'Jernih', 'hidup' => 50, 'mati' => 0, 'catatan' => 'Adaptasi awal setelah penanaman.'],
+```
+
+Untuk menambah minggu baru, salin satu baris data, tempel di bawah data terakhir, lalu ubah nilainya. Tabel dan grafik di halaman `monitoring.php` akan mengikuti data tersebut.
+
+## 5. Catatan hosting
+
+GitHub Pages tidak bisa menjalankan PHP. Jika ingin website ini online, gunakan hosting yang mendukung PHP seperti cPanel, hosting kampus, InfinityFree, atau layanan hosting PHP lain.
+
+Alur upload ke hosting PHP:
+
+1. Zip semua file project.
+2. Upload ke folder `public_html` atau folder website utama di hosting.
+3. Pastikan file `index.php` berada di folder utama.
+4. Buka domain hosting untuk mengecek hasilnya.
+
+Repository GitHub tetap bisa dipakai untuk menyimpan kode, tetapi link `github.io` tidak akan menjalankan file PHP.
